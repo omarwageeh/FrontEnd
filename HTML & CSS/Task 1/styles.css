@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.wrapper {
+    padding: 0px 150px 150px 150px;
+}
+
+.nav-bar {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div>header>div>a {
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    margin-left: 10px;
+}
+
+.body-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.content {
+    width: 70%;
+    padding-right: 30px;
+}
+
+.img-container {
+    width: 100%;
+}
+
+.content>.img-container>img {
+    width:100%;
+    height: auto;
+}
+.text-container {
+    display: flex;
+    flex-direction: row;
+}
+.text-container>div {
+    width: 50%;
+}
+.text-container>div>span {
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+.text-container>div>p {
+    font-size: 35px;
+    color: grey;
+}
+
+.read-more {
+    background-color: orangered;
+    padding: 23px 35px;
+    text-align: center;
+    width: fit-content;
+}
+
+.read-more>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:white;
+}
+
+.news-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 30%;
+}
+
+.news-bar>p {
+    color:orange;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.news-bar>div>h3 {
+    font-size: 28px;
+    color:white;
+}
+.news-bar>div>p {
+    font-size: 25px;
+    color:grey;
+}
+
+.low-bar {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.lower-tile {
+    display: flex;
+    flex-direction: row;
+}
+
+.lower-tile>.small-img-container {
+    width:200px;
+}
+
+.lower-tile>.small-img-container>img {
+    height: auto;
+    width: 100%;
+}
+
+.number {
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: grey;
+}
+
+.bold-title {
+    font-size: 30px;
+    margin: 0px 0px 0px 15px;
+    font-weight: bold;
+}
+
+.regular-grey-text {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: grey;
+}

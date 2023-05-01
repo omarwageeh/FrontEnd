@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #edf1fa;
+}
+.container{
+    display: grid;
+    padding: 150px 150px;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: start;
+    padding: 18px;
+    border-radius: 10px;
+}
+.profile-img{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+.card-title{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.person-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.relative{
+    position: absolute;
+    top: -10px;
+    left: 70%;
+    color: white;
+    opacity: 0.2;
+}
+.person-name{
+}
+.person-title{
+}
+.card-content{
+    margin-top: 10px;
+}
+.card-content-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-content-text{
+    margin-top: 10px;
+}
+.grid-item-6{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.grid-item-1{
+    grid-column: 1/3;
+}
+.grid-item-3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.grid-item-4{
+    grid-row: 1/3;
+    grid-column: 4/5;
+}
+.black-text{
+    color: black;
+}
+.white-text{
+    color: white;
+}
+.grey-text{
+    color:#8792a6
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: #191f2d;
+}
+.purple{
+    background-color: #733fc8;
+}
+.grey{
+    background-color: #49556d;
+}

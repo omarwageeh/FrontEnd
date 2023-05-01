@@ -1,0 +1,68 @@
+*{
+    font-family: 'Segoe UI';
+    margin: 0px;
+}
+body{
+    background-color: #f0f0f0;
+}
+.main-container, .main-container-2, .main-container-3, .main-container-4{
+    display: flex;
+    margin: 150px 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-container>.inner-content>.header, .main-container-3>.inner-content>.header{
+    color: #42C3AF;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.main-container-2>.inner-content>.header, .main-container-4>.inner-content>.header{
+    color: #42C3AF;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.main-container>.inner-content>.bolder, .main-container-3>.inner-content>.bolder{
+    font-weight:bold;
+    margin-bottom: 5px;
+}
+.main-container-2>.inner-content>.bolder, .main-container-4>.inner-content>.bolder{
+    font-weight:bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.main-container>.img-container{
+    width:20%;
+    margin-right: 20px;
+}
+.main-container-2>.img-container{
+    width: 30%;
+    margin-right: 20px;
+}
+.main-container-3>.img-container, .main-container-4>.img-container{
+    display: none;
+}
+.img-container>img{
+    height: auto;
+    width: 100%;
+}
+.inner-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.anchor-holder{
+    display: flex;
+    align-self: end;
+    background-color: #42C3AF;
+    padding: 5px;
+}
+.anchor-holder>a{
+    align-self: center;
+    text-decoration: none;
+    color: #ffff;
+    letter-spacing: 2px;
+}
